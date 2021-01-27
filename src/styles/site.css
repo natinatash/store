@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Work+Sans&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue: #3182ce;
+  --black: #010506;
+  --orange: #e35f21;
+  --white: #eef8f7;
+}
+body {
+}
+h2 {
+  font-family: "Tenor Sans", sans-serif;
+}
+p {
+  font-family: "Work Sans", sans-serif;
+}
+
+.category:before {
+  position: absolute;
+  bottom: 1rem;
+  display: inline-block;
+  width: 10rem;
+  height: 1rem;
+  content: "";
+  background: linear-gradient(to right, var(--orange), var(--white));
+  border-radius: 2rem 0 0 2rem;
+  z-index: -1;
+}
+.logo {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+.logo span {
+  letter-spacing: 5px;
+  font-size: initial;
+}
