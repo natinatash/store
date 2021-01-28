@@ -9,13 +9,13 @@ function Product({ product }) {
         <Image product={product} />
       </div>
       <div className="flex justify-between items-baseline leading-loose p-2">
-        <h2 className="font-bold text-blue-500 text-3xl">{product.node.name}</h2>
-        <span className="font-bold text-blue-900 text-lg">
+        <h2 className="font-bold text-red-600 text-3xl">{product.node.name}</h2>
+        <span className="font-bold text-red-900 text-lg">
           $ {product.node.price}
         </span>
       </div>
       <div style={{ 'min-height': 50 }}>
-        <p className="text-blue-900 text-lg px-2">
+        <p className="text-black text-lg px-2">
           {product.node.description}
         </p>
       </div>
