@@ -15,7 +15,7 @@ function Home() {
           name
           category
           description
-          image {
+          images {
             resize(quality: 100) {
               src
             }
