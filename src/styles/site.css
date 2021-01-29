@@ -20,7 +20,7 @@ p {
   font-family: "Work Sans", sans-serif;
 }
 .jumbo {
-  height: 40vh;
+  height: 60vh;
   background: rgba(255, 0, 0, 0.1);
   background-image: url(../images/red-dress.jpg);
   background-blend-mode: multiply;
@@ -38,13 +38,13 @@ p {
 
 @media (min-width: 639px) {
   .jumbo {
-    height: 50vh;
+    /* height: 50vh; */
     background-position: 0 -100px;
   }
 }
 @media (min-width: 768px) {
   .jumbo {
-    height: 60vh;
+    /* height: 60vh; */
   }
 }
 @media (min-width: 1023px) {
