@@ -47,7 +47,7 @@ function Home() {
 
     mainContent.push(
       <section>
-        <div className="my-12">
+        <div className="mb-12">
           <h2 className="category text-center text-6xl capitalize relative">{
             !isNaN(category.charAt(0)) ? category.substr(1) : category
           }s</h2>
@@ -64,6 +64,9 @@ function Home() {
     <div className="min-h-screen flex flex-col">
       <Head />
       <Header />
+      <div className="jumbo mt-16 flex items-center justify-center text-white text-5xl lg:text-6xl">
+        <h1><span>Always</span> in Style</h1>
+      </div>
       <main class="mx-auto flex-grow mt-12 w-11/12 lg:w-9/12">
         {mainContent}
       </main>

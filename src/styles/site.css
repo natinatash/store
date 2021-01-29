@@ -8,14 +8,50 @@
   --black: #010506;
   --orange: #e35f21;
   --white: #eef8f7;
+  --red: rgb(220, 38, 38);
 }
 body {
 }
+h1,
 h2 {
   font-family: "Tenor Sans", sans-serif;
 }
 p {
   font-family: "Work Sans", sans-serif;
+}
+.jumbo {
+  height: 40vh;
+  background: rgba(255, 0, 0, 0.1);
+  background-image: url(../images/red-dress.jpg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -25px;
+}
+.jumbo h1 {
+  text-shadow: var(--black) 1px 1px 1px;
+}
+.jumbo h1 span {
+  text-decoration: underline;
+  text-decoration-color: var(--red);
+}
+
+@media (min-width: 639px) {
+  .jumbo {
+    height: 50vh;
+    background-position: 0 -100px;
+  }
+}
+@media (min-width: 768px) {
+  .jumbo {
+    height: 60vh;
+  }
+}
+@media (min-width: 1023px) {
+  .jumbo {
+    height: 80vh;
+    background-position: 0 -150px;
+  }
 }
 
 .category:before {
@@ -25,7 +61,7 @@ p {
   width: 10rem;
   height: 1rem;
   content: "";
-  background: linear-gradient(to right, var(--orange), var(--white));
+  background: linear-gradient(to right, var(--red), var(--white));
   border-radius: 2rem 0 0 2rem;
   z-index: -1;
 }
