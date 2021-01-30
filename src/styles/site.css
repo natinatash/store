@@ -22,16 +22,16 @@ p {
 .jumbo {
   height: 60vh;
   background: rgba(255, 0, 0, 0.1);
-  background-image: url(../images/red-dress.jpg);
+  background-image: url(../images/jumbo.jpg);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 -25px;
+  background-position: top right;
 }
 .jumbo h1 {
-  text-shadow: var(--black) 1px 1px 1px;
+  text-shadow: var(--black) 0.5px 0.5px 0.5px;
 }
-.jumbo h1 span {
+.underline {
   text-decoration: underline;
   text-decoration-color: var(--red);
 }
@@ -39,36 +39,46 @@ p {
 @media (min-width: 639px) {
   .jumbo {
     /* height: 50vh; */
-    background-position: 0 -100px;
+    /* background-position: 0 -100px; */
   }
 }
 @media (min-width: 768px) {
-  .jumbo {
-    /* height: 60vh; */
+  .jumbo h1 {
+    margin-left: -33.33%;
+    /* border-left: 1px solid var(--red); */
+  }
+  .underline {
+    text-decoration: none;
   }
 }
 @media (min-width: 1023px) {
   .jumbo {
     height: 80vh;
-    background-position: 0 -150px;
+    background-position: 0 -50px;
   }
 }
 
 .category:before {
   position: absolute;
-  bottom: 1rem;
+  bottom: 1.5rem;
   display: inline-block;
   width: 10rem;
-  height: 1rem;
+  height: 0.5rem;
   content: "";
   background: linear-gradient(to right, var(--red), var(--white));
   border-radius: 2rem 0 0 2rem;
   z-index: -1;
 }
 .logo {
+  width: 100px;
   text-transform: uppercase;
   font-size: 0.7rem;
   letter-spacing: 1px;
+}
+@media (min-width: 1023px) {
+  .logo {
+    width: 125px;
+  }
 }
 .logo span {
   letter-spacing: 5px;

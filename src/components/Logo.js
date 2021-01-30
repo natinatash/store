@@ -3,7 +3,7 @@ import logo from '../images/logo.png'
 
 function Logo() {
   return <div className="logo">
-    <img src={logo} width={75} alt="nati natash logo" />
+    <img src={logo} alt="nati natash logo" />
   </div>
 }
 

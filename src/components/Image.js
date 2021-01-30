@@ -21,11 +21,11 @@ function Image({ product }) {
       />
       <button
         disabled={currentImage === 0}
-        className="absolute bottom-0 bg-red-600 bg-opacity-50 text-white p-2 disabled:opacity-0"
+        className="absolute bottom-0 bg-black bg-opacity-50 text-white p-2 disabled:opacity-0"
         onClick={prevImage}
       >&#x2190;</button>
       <button
-        className="absolute bottom-0 right-0 bg-red-600 bg-opacity-50 text-white p-2 disabled:opacity-0"
+        className="absolute bottom-0 right-0 bg-black bg-opacity-50 text-white p-2 disabled:opacity-0"
         onClick={nextImage}
         disabled={currentImage >= (productImages.length - 1)}
       >&#x2192;</button>
