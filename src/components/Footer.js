@@ -18,7 +18,7 @@ function Footer() {
         <p className="text-red-500">Follow us on Social media.</p>
       </div>
       <div className="icons flex justify-between w-1/2 md:w-1/4 my-8">
-        <a href="#"><img src={instagram} alt="instagram icon" /></a>
+        <a href="https://www.instagram.com/nati_natash21/"><img src={instagram} alt="instagram icon" /></a>
         <a href="#"><img src={facebook} alt="facebook icon" /></a>
       </div>
       <small className="text-red-400">&copy; Copyright 2021{getCurrentYear()} Nati Natash</small>
