@@ -4,11 +4,11 @@
 @tailwind utilities;
 
 :root {
-  --blue: #3182ce;
   --black: #010506;
-  --orange: #e35f21;
   --white: #eef8f7;
-  --red: rgb(220, 38, 38);
+}
+html {
+  font-size: 16px;
 }
 body {
   background-color: #eef8f7;
@@ -23,31 +23,21 @@ p {
 }
 .jumbo {
   height: 60vh;
-  background: rgba(255, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   background-image: url(../images/jumbo.jpg);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
 }
-.jumbo h1 {
-  text-shadow: var(--black) 0.5px 0.5px 0.5px;
-}
 .underline {
   text-decoration: underline;
-  text-decoration-color: var(--red);
+  text-decoration-color: var(--black);
 }
 
-@media (min-width: 639px) {
-  .jumbo {
-    /* height: 50vh; */
-    /* background-position: 0 -100px; */
-  }
-}
 @media (min-width: 768px) {
   .jumbo h1 {
     margin-left: -33.33%;
-    /* border-left: 1px solid var(--red); */
   }
   .underline {
     text-decoration: none;
@@ -62,13 +52,12 @@ p {
 
 .category:before {
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 1rem;
   display: inline-block;
   width: 10rem;
   height: 0.5rem;
   content: "";
-  background: linear-gradient(to right, var(--red), var(--white));
-  border-radius: 2rem 0 0 2rem;
+  background: linear-gradient(to right, var(--black), var(--white));
   z-index: -1;
 }
 .logo {

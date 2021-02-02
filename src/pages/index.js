@@ -65,7 +65,7 @@ function Home() {
       <Head />
       <Header />
       <div className="jumbo mt-16 flex items-center justify-center text-white text-5xl lg:text-6xl">
-        <h1 className="md:flex md:flex-col md:items-center md:pl-4 md:border-l-4 md:border-red-600"><span className="underline">Always</span> <span>in</span> Style</h1>
+        <h1 className="md:flex md:flex-col md:items-center md:pl-4 md:border-l-4 md:border-black"><span className="underline">Always</span> <span>in</span> Style</h1>
       </div>
       <main class="mx-auto flex-grow mt-12 w-11/12 lg:w-9/12">
         {mainContent}
