@@ -25,7 +25,7 @@ const Head = () => {
                 content="The finest hats and purses"
             />
             {/* STILL NEED TO UPDATE IMAGE BELOW */}
-            <meta property="og:image" content="./images/logo-sm.svg" />
+            <meta property="og:image" content="./logo-sm.svg" />
 
             {/* Twitter */}
             <meta property="twitter:card" content="summary_large_image" />
@@ -37,7 +37,7 @@ const Head = () => {
             />
             {/* STILL NEED TO UPDATE IMAGE BELOW */}
 
-            <meta property="twitter:image" content="./images/logo-sm.svg" />
+            <meta property="twitter:image" content="./logo-sm.svg" />
         </Helmet>
     )
 }
