@@ -3,7 +3,11 @@ import { Helmet } from 'react-helmet'
 
 const Head = () => {
     return (
-        <Helmet>
+        <Helmet
+            htmlAttributes={{
+                lang: 'en',
+            }}
+        >
             {/* Primary Meta Tags */}
             <title>Nati Natash</title>
             <meta name="title" content="Nati Natash, CA" />
