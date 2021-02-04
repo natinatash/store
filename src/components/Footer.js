@@ -20,7 +20,7 @@ function Footer() {
       </div>
       <div className="icons flex justify-between w-1/2 md:w-1/4 my-8">
         <a href="https://www.instagram.com/nati_natash21/"><img src={instagram} alt="instagram icon" /></a>
-        <a href="#"><img src={facebook} alt="facebook icon" /></a>
+        <a href="https://www.facebook.com/search/top?q=nati%20natash%20fashion"><img src={facebook} alt="facebook icon" /></a>
       </div>
       <div className="email my-8">
         <h6 className="text-center font-bold tracking-wider">In need of assistance?</h6>
