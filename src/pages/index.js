@@ -33,7 +33,7 @@ function Home() {
   categories = new Set(categories)
 
   // alphabetize categories
-  categories = [...(new Set(categories))].sort()
+  categories = [...(new Set(categories))].sort().reverse()
 
   let mainContent = []
 
