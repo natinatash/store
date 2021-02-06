@@ -2,6 +2,7 @@ import React from "react"
 import instagram from "../images/icons/instagram.svg"
 import facebook from "../images/icons/facebook.svg"
 import email from "../images/icons/mail.svg"
+import Ada from "./Ada"
 
 
 function getCurrentYear() {
@@ -27,6 +28,7 @@ function Footer() {
         <p>Our team is always here for you. Please use the email below and we will respond to you ASAP.</p>
         <a className="flex justify-center items-center text-white text-lg font-bold pt-2 md:text-xl" href="mailto: customer-service@natinatash.com"><img className="mr-2" src={email} alt="email icon" />Customer Service</a>
       </div>
+      <Ada />
       <small className="text-red-200 mt-8">&copy; Copyright 2021{getCurrentYear()} Nati Natash</small>
     </footer>
   )
