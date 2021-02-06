@@ -3,7 +3,7 @@ import email from "../images/icons/mail.svg"
 
 function Ada() {
     return (
-        <div className="my-8">
+        <div className="my-8 md:w-3/4 xl:w-1/2">
             <h6 className="text-center">ADA Statement</h6>
             <p>Nati Natash is concerned about our website being accessible to all users. We strive for our website to meet the WCAG guidelines at Level AA. Please <a href="mailto: accessibility@natinatash.com" className="uppercase font-bold tracking-wider">contact us</a> immediately if you are experiencing any issues with using our website.</p>
             <div>
