@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 
 function Image({ product }) {
-  // console.log(product)
   let productImages = product.node.images
   const [currentImage, setCurrentImage] = useState(0)
 

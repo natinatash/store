@@ -24,7 +24,7 @@ function Footer() {
         <a href="https://www.facebook.com/search/top?q=nati%20natash%20fashion"><img src={facebook} alt="facebook icon" /></a>
       </div>
       <div className="email my-8 md:w-3/4 xl:w-1/2">
-        <h6 className="text-center font-bold tracking-wider">In need of assistance?</h6>
+        <h4 className="text-center font-bold tracking-wider">In need of assistance?</h4>
         <p>Our team is always here for you. Please use the email below and we will respond to you ASAP.</p>
         <a className="flex justify-center items-center text-white text-lg font-bold pt-2 md:text-xl" href="mailto: customer-service@natinatash.com"><img className="mr-2" src={email} alt="email icon" />Customer Service</a>
       </div>

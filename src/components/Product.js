@@ -9,7 +9,7 @@ function Product({ product }) {
         <Image product={product} />
       </div>
       <div className="flex justify-between items-baseline leading-loose p-2">
-        <h2 className="font-bold text-black text-xl">{product.node.name}</h2>
+        <h3 className="font-bold text-black text-xl">{product.node.name}</h3>
         <span style={{ 'min-width': 65 }} className="font-bold text-red-900 text-md text-right">
           $ {product.node.price}
         </span>
