@@ -28,7 +28,7 @@ p {
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top right;
+  background-position: 75% 10%;
 }
 .underline {
   text-decoration: underline;
